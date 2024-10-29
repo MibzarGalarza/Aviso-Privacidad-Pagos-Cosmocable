@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    /* Fondo gris claro */
+    color: #333;
+    /* Texto negro */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #000;
+    /* Fondo negro */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    /* Texto blanco */
+    position: fixed;
+    /* Fijo en la parte superior */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Mantener el header sobre otros elementos */
+}
+
+.container {
+    max-width: 800px;
+    /* Aumentar el ancho máximo */
+    padding: 80px 20px 20px;
+    /* Espaciado superior para el header fijo */
+    margin: auto;
+}
+
+.card {
+    background-color: #ffffff;
+    /* Fondo blanco de la card */
+    border: 1px solid #ddd;
+    /* Borde gris claro */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra más suave */
+    border-radius: 15px;
+    /* Bordes redondeados */
+    padding: 30px;
+    /* Espaciado interno aumentado */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+    transition: transform 0.2s;
+    /* Efecto de hover */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Efecto de elevación en hover */
+}
+
+h2 {
+    color: #000;
+    /* Título negro */
+    font-size: 1.6rem;
+    /* Aumentar el tamaño del título */
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+h3 {
+    color: #007BFF;
+    /* Color azul para subtítulos */
+    margin-top: 20px;
+    /* Espaciado superior */
+}
+
+h4 {
+    color: #0056b3;
+    /* Color azul oscuro para sub-subtítulos */
+    margin-top: 15px;
+    /* Espaciado superior */
+}
+
+p {
+    color: #333;
+    /* Texto negro */
+    line-height: 1.6;
+    /* Mayor separación entre líneas */
+    margin-bottom: 15px;
+    /* Espaciado inferior */
+}
+
+ul {
+    margin-left: 20px;
+    /* Sangría para listas */
+    margin-bottom: 15px;
+    /* Espaciado inferior */
+}
+
+footer {
+    text-align: center;
+    /* Centrar el texto */
+    padding: 20px;
+    /* Espaciado interno */
+    background-color: #000;
+    /* Fondo negro */
+    color: #fff;
+    /* Texto blanco */
+}
